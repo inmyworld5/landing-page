@@ -1,0 +1,23 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: around;
+    color:aliceblue;
+}
+
+.item1-c1, .item2-c2{
+    flex: 1;
+}
+header{
+    background-color: #1f2937;
+    margin: 0;
+}
+
+.item-c1{
+    display: flex;
+    flex-direction: row;
+}
+
+#im1, #im2, #im3{
+    flex: 1;
+}
