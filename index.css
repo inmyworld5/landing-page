@@ -45,3 +45,18 @@ footer{
     flex: 1;
     align-self:center;
 }
+
+img{
+    width: 60px;
+    height: auto;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.s1 h2{
+    text-align: center;
+}
