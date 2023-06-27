@@ -60,3 +60,28 @@ img{
 .s1 h2{
     text-align: center;
 }
+
+/*Section two main */
+.s2{
+    background-color: #e5e7eb;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+blockquote{
+    font-size: 36px;
+    color: #1f2937;
+    text-align: justify;
+    
+}
+
+.s2 p{
+    font-weight: bold;
+    text-align: right;
+    padding-right: 48px;
+}
+
