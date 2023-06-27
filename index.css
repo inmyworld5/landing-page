@@ -31,5 +31,17 @@ footer{
     background-color: #1f2937;
     padding-top: 30px;
     padding-bottom: 30px;
-    align-self: flex-end;
+}
+
+.s3{
+    background-color: #3882f6;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.s3h4, .s3p, .s3button{
+    flex: 1;
+    align-self:center;
 }
