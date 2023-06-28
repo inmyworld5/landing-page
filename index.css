@@ -1,6 +1,8 @@
 body{
     margin: 0;
 }
+
+/* Header */
 .container1{
     display: flex;
     flex-direction: row;
@@ -8,14 +10,15 @@ body{
     color:aliceblue;
 }
 
-.item1-c1, .item2-c2{
+.item1-c1, .item2-c1{
     flex: 1;
 }
+
 header{
     background-color: #1f2937;
 }
 
-.item-c1{
+.item2-c1{
     display: flex;
     flex-direction: row;
 }
@@ -24,27 +27,8 @@ header{
     flex: 1;
 }
 
-footer{
-    text-align: center;
-    border: 1px solid #1f2937;
-    color: aliceblue;
-    background-color: #1f2937;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
-.s3{
-    background-color: #3882f6;
-    text-align: center;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-}
-
-.s3h4, .s3p, .s3button{
-    flex: 1;
-    align-self:center;
-}
+/* Section one main */
 
 img{
     width: 60px;
@@ -61,7 +45,8 @@ img{
     text-align: center;
 }
 
-/*Section two main */
+/* Section two main */
+
 .s2{
     background-color: #e5e7eb;
     text-align: center;
@@ -85,3 +70,28 @@ blockquote{
     padding-right: 48px;
 }
 
+/* Section three main */
+
+.s3{
+    background-color: #3882f6;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.s3h4, .s3p, .s3button{
+    flex: 1;
+    align-self:center;
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+    border: 1px solid #1f2937;
+    color: aliceblue;
+    background-color: #1f2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
