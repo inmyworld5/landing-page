@@ -38,8 +38,8 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
     gap: 50px;
 }
 
@@ -50,27 +50,33 @@ header{
 
 #imb{
     width: 375px;
-    padding-right: 350px;
+    padding-right: 125px;
 }
 
 #imc{
     text-align: left;
 }
 
-.container1 img{
-    width: 500px;
-    height: 500px;
+.container2 img{
+    width: 300px;
+    height: auto;
 }
 
 
 /* Section one main */
 
-img{
-    width: 60px;
+.s1{
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.s1 img{
+    width: 150px;
     height: auto;
 }
 
 .container3{
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     gap: 15px;
