@@ -21,9 +21,6 @@ header{
     justify-content: center;
 }
 
-.item1-c1{
-}
-
 .item2-c1{
     display: flex;
     flex-direction: row;
@@ -31,7 +28,6 @@ header{
 
 #im1, #im2, #im3{
     flex: 1;
-    
 }
 
 .container2{
@@ -40,7 +36,6 @@ header{
     justify-content: center;
     padding-bottom: 100px;
     padding-top: 100px;
-    gap: 50px;
 }
 
 #ima, #imb, #imc{
@@ -50,16 +45,28 @@ header{
 
 #imb{
     width: 375px;
-    padding-right: 125px;
 }
 
-#imc{
-    text-align: left;
+.container2 div{
+    padding-right: 125px;
 }
 
 .container2 img{
     width: 300px;
     height: auto;
+}
+
+
+#imc{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin-left: -275px;
+    background-color: #3882f6;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
 }
 
 
